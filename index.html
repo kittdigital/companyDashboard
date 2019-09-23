@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="refresh" content="10">
+</head>
+
+<body id="grad">
+    <div class="row">
+        <div class="col">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="text-center">Today</h2>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 50px;">
+                <div class="col offset-lg-0">
+                    <h4 class="text-center">Current Score</h4>
+                    <p class="text-center" id="currentScore"></p>
+                </div>
+                <div class="col">
+                    <h4 class="text-center">Orders</h4>
+                    <p class="text-center" id="orders"></p>
+                </div>
+                <div class="col">
+                    <h4 class="text-center">AOV</h4>
+                    <p class="text-center" id="aovToday"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row" style="background-color: rgba(207,235,244,0);margin-right: 0px;">
+                <div class="col">
+                    <h2 class="text-center" style="margin-top: 0px;margin-bottom: 0px;width: 466;">Month till date</h2>
+                </div>
+            </div>
+            <div class="row" style="background-color: rgba(207,235,244,0);">
+                <div class="col">
+                    <h4 class="text-center">Month To Date Score (Gross)</h4>
+                    <p class="text-center" id="scoreTillDate"></p>
+                </div>
+                <div class="col">
+                    <h4 class="text-center">Orders To Date (Gross)</h4>
+                    <p class="text-center" id="ordersTillDate"></p>
+                </div>
+                <div class="col">
+                    <h4 class="text-center">AOV</h4>
+                    <p class="text-center" id="aovTillDate"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center" style="margin: 50px 0px 20px 0px;">Sales By Associate</h2>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h4 class="text-center">Associate Sales Today (Gross)</h4>
+            <p class="text-center" id="todayRevenueByAssociate"></p>
+        </div>
+        <div class="col">
+            <h4 class="text-center">Associate Sales To Date (Gross)</h4>
+            <p class="text-center" id="revenueByAssociate"></p>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
